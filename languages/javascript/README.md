@@ -81,8 +81,8 @@ All of the rules listed within should be followed as closely as possible,
 
 ### 19.2
 
-An additional trailing comment should not be used, as it causes issues in
-certain edge cases (`...rest` syntax) and overall makes code less readable.
+An additional trailing comma should not be used, as it causes issues in certain
+edge cases (`...rest` syntax) and overall makes code less readable.
 
 ### 20.1
 
