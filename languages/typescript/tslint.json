@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-eslint-rules",
+    "eslint-config-airbnb-base"
+  ],
+  "rules": {
+    "no-any": false,
+    "no-empty-interface": true,
+    "no-import-side-effect": true,
+    "no-reference": true,
+    "no-var-requires": true
+  }
+}
