@@ -31,6 +31,21 @@ features in ES6. These libraries present unneeded bloat for little to no gain.
 If you need a single feature provided by such an "all in one" solution, consider
 writing it yourself.
 
+### Type checking
+
+- Do **not** use [Flowtype](https://flow.org/).
+- You can also use TypeScript's `--checkJs` flag to
+  [type-check JavaScript files](https://github.com/niieani/typescript-vs-flowtype),
+  but do **not** do this either.
+- If you're *really* concerned about type checking in your JavaScript files, you
+  might as well use [TypeScript](../typescript) altogether.
+
+> Flowtype is icky. Its environment relies on a Babel config, which means
+real-time IDE integration will be sketchy at best. [TypeScript](http://www.typescriptlang.org/),
+on the other hand, is a superset of JavaScript, and migrating your existing
+JavaScript code to TypeScript is really easy. Read more about the differences
+between Flowtype and TypeScript [here](https://github.com/niieani/typescript-vs-flowtype).
+
 ### Angular vs React
 
 - Do **not** use angular 1 for new projects.
