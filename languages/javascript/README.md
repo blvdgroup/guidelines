@@ -35,7 +35,7 @@ writing it yourself.
 
 - Do **not** use [Flowtype](https://flow.org/).
 - You can also use TypeScript's `--checkJs` flag to
-  [type-check JavaScript files](https://github.com/niieani/typescript-vs-flowtype),
+  [type-check JavaScript files](https://github.com/Microsoft/TypeScript/wiki/Type-Checking-JavaScript-Files),
   but do **not** do this either.
 - If you're *really* concerned about type checking in your JavaScript files, you
   might as well use [TypeScript](../typescript) altogether.
