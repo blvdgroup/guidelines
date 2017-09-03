@@ -40,9 +40,9 @@ writing it yourself.
 - If you're *really* concerned about type checking in your JavaScript files, you
   might as well use [TypeScript](../typescript) altogether.
 
-> Flowtype is icky. Its environment relies on a Babel config, which means
-real-time IDE integration will be sketchy at best. [TypeScript](http://www.typescriptlang.org/),
-on the other hand, is a superset of JavaScript, and migrating your existing
+> Flowtype is icky. It has spotty performance on Windows, and real-time IDE
+integration is sketchy at best. [TypeScript](http://www.typescriptlang.org/), on
+the other hand, is a superset of JavaScript, and migrating your existing
 JavaScript code to TypeScript is really easy. Read more about the differences
 between Flowtype and TypeScript [here](https://github.com/niieani/typescript-vs-flowtype).
 
