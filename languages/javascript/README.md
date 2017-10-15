@@ -33,18 +33,17 @@ writing it yourself.
 
 ### Type checking
 
-- Do **not** use [Flowtype](https://flow.org/).
-- You can also use TypeScript's `--checkJs` flag to
-  [type-check JavaScript files](https://github.com/Microsoft/TypeScript/wiki/Type-Checking-JavaScript-Files),
+- Do **not** use Flowtype.
+- You can also use TypeScript's `--checkJs` flag to type-check JavaScript files,
   but do **not** do this either.
 - If you're *really* concerned about type checking in your JavaScript files, you
   might as well use [TypeScript](../typescript) altogether.
 
-> Flowtype is icky. It has spotty performance on Windows, and real-time IDE
-integration is sketchy at best. [TypeScript](http://www.typescriptlang.org/), on
-the other hand, is a superset of JavaScript, and migrating your existing
-JavaScript code to TypeScript is really easy. Read more about the differences
-between Flowtype and TypeScript [here](https://github.com/niieani/typescript-vs-flowtype).
+> Contrary to popular opinion, TypeScript is far from an entirely different
+language, and converting any JavaScript code to TypeScript can be done
+incrementally, with little to no changes apart from adding type
+annotations/interfaces. Flowtype is icky, and has a really weak IDE support and
+performance compared to TypeScript.
 
 ### Angular vs React
 
