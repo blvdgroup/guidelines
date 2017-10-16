@@ -31,19 +31,26 @@ features in ES6. These libraries present unneeded bloat for little to no gain.
 If you need a single feature provided by such an "all in one" solution, consider
 writing it yourself.
 
-### Type checking
+### Static typing
 
-- Do **not** use Flowtype.
-- You can also use TypeScript's `--checkJs` flag to type-check JavaScript files,
-  but do **not** do this either.
-- If you're *really* concerned about type checking in your JavaScript files, you
-  might as well use [TypeScript](../typescript) altogether.
+**Avoid** using Flowtype. It has a really weak IDE support and performance
+compared to TypeScript, since it relies on Babel for most of its hard work.
+You can also use TypeScript's `--checkJs` flag to type-check JavaScript files,
+but **avoid** this as well.
+
+If you *really* want to use static typing in your JavaScript projects, you might
+as well use [TypeScript](../typescript) altogether.
+
+Read further about the comparison between the two:
+
+- [TypeScript vs Flowtype](https://github.com/niieani/typescript-vs-flowtype)
+by [niieani](https://github.com/niieani)
+- [To type or not to type: quantifying detectable bugs in JavaScript](https://blog.acolyer.org/2017/09/19/to-type-or-not-to-type-quantifying-detectable-bugs-in-javascript/)
 
 > Contrary to popular opinion, TypeScript is far from an entirely different
 language, and converting any JavaScript code to TypeScript can be done
-incrementally, with little to no changes apart from adding type
-annotations/interfaces. Flowtype is icky, and has a really weak IDE support and
-performance compared to TypeScript.
+incrementally, with little to no changes apart from adding type annotations
+and/or interfaces.
 
 ### Angular vs React
 
