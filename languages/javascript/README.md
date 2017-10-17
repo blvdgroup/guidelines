@@ -43,16 +43,16 @@ it's less reliable. **Avoid** this as well.
 If you *really* want to use static typing in your JavaScript projects, you might
 as well use [TypeScript](../typescript) altogether.
 
+> Contrary to popular opinion, TypeScript is far from an entirely different
+language, and converting any JavaScript code to TypeScript can be done
+incrementally, with little to no changes apart from adding type annotations
+and/or interfaces.
+
 #### References
 
 - [TypeScript vs Flowtype](https://github.com/niieani/typescript-vs-flowtype)
 by [niieani](https://github.com/niieani)
 - [To type or not to type: quantifying detectable bugs in JavaScript](https://blog.acolyer.org/2017/09/19/to-type-or-not-to-type-quantifying-detectable-bugs-in-javascript/)
-
-> Contrary to popular opinion, TypeScript is far from an entirely different
-language, and converting any JavaScript code to TypeScript can be done
-incrementally, with little to no changes apart from adding type annotations
-and/or interfaces.
 
 ### Angular vs React
 
