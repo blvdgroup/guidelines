@@ -1,0 +1,19 @@
+.counter-container {
+  display: flex;
+  min-height: calc(100% - 60px);
+  padding: 4rem;
+  text-align: center;
+}
+
+.counter-container-wrapper {
+  margin: 0 auto;
+}
+
+.counter-container-wrapper__count span {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.counter-container-wrapper__buttons {
+  margin-top: 1rem;
+}
