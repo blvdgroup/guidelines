@@ -35,13 +35,15 @@ writing it yourself.
 
 **Avoid** using Flowtype. It has a really weak IDE support and performance
 compared to TypeScript, since it relies on Babel for most of its hard work.
+
 You can also use TypeScript's `--checkJs` flag to type-check JavaScript files,
-but **avoid** this as well.
+but this relies on JSdoc documentation blocks being present on your code, so
+it's less reliable. **Avoid** this as well.
 
 If you *really* want to use static typing in your JavaScript projects, you might
 as well use [TypeScript](../typescript) altogether.
 
-Read further about the comparison between the two:
+#### References
 
 - [TypeScript vs Flowtype](https://github.com/niieani/typescript-vs-flowtype)
 by [niieani](https://github.com/niieani)
