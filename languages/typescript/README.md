@@ -138,3 +138,7 @@ guide possible into TSLint. It tries, but some of the rules available in eslint
 are not available in TSLint, so get more mad at Palantir than you already are.
 
 It also includes the rules outlined here.
+
+```bash
+yarn add tslint tslint-config-airbnb
+```
