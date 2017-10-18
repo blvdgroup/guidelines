@@ -123,5 +123,5 @@ that certain dependencies are installed with it. Run the following line, and
 place the .eslintrc in the root of your project.
 
 ```
-yarn add eslint eslint-config-airbnb-base eslint-plugin-import
+yarn add --dev eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 ```
