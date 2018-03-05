@@ -52,12 +52,12 @@ is nothing (i.e. `never`.)
 
 ```typescript
 // Bad
-function rng () {
+function rng() {
   return Math.random()
 }
 
 // Good
-function rng (): number {
+function rng(): number {
   return Math.random()
 }
 ```
@@ -69,10 +69,10 @@ the argument, even if it is `any`.
 
 ```typescript
 // Bad
-function login (user, pass): LoginResponse {}
+function login(user, pass): LoginResponse {}
 
 // Good
-function login (user: string, pass: string): LoginResponse {}
+function login(user: string, pass: string): LoginResponse {}
 ```
 
 ### Interfaces
