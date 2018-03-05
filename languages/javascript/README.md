@@ -102,12 +102,12 @@ The following style guide is based off of the [airbnb style guide](https://githu
 All of the rules listed within should be followed as closely as possible,
 **except** for the rules listed below.
 
-### 19.2
+### 20.2
 
 An additional trailing comma should not be used, as it causes issues in certain
 edge cases (`...rest` syntax) and overall makes code less readable.
 
-### 20.1
+### 21.1
 
 Semicolons should not be used, except when strictly necessary, such as at the
 beginning of a line which starts with `(` or `[`.
