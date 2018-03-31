@@ -10,9 +10,9 @@ the time, you'll also want `"moduleResolution": "node"` to be explicitly set.
 
 ## Style
 
-Style in TypeScript projects should be seen as an extension of the Javascript
-guidelines provided by airbnb. All the rules outlined there and the exceptions
-outlined in the JS guidelines still apply.
+Style in TypeScript projects should be seen as an extension of [the blvd
+Javascript guidelines](../javascript/README.md). All the rules outlined
+there still apply.
 
 ### Types
 
