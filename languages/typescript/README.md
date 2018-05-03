@@ -126,10 +126,16 @@ This is outdated syntax, and ES6 style imports should be used instead.
 
 In every case, this can be replaced by using, again, ES6 style imports.
 
+> A common exception to this is when `require()`-ing static assets via webpack,
+to avoid gotchas with typing these kinds of imports in TS.
+
 #### Don't import files just for side effects
 
 This is bad, and rarely seen nowadays. This also means you should not be writing
 files which are designed to be imported for side effects.
+
+> Same as above, a common exception to this is when importing styles via
+webpack (e.g. `import 'styles/reset.css'`)
 
 ## Using TSLint
 
