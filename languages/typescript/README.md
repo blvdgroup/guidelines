@@ -75,6 +75,25 @@ function login(user, pass): LoginResponse {}
 function login(user: string, pass: string): LoginResponse {}
 ```
 
+### Classes
+
+#### Declare access modifiers for each class method
+
+If declaring a class method, you should always specify whether the method is
+`public`, `private`, or `protected`.
+
+```typescript
+class Person {
+  constructor () {}
+
+  // Bad
+  sayHello(greeting: string) {}
+
+  // Good
+  public sayHello(greeting: string) {}
+}
+```
+
 ### Interfaces
 
 #### Use PascalCase when naming Interfaces
