@@ -37,11 +37,8 @@ writing it yourself.
 compared to TypeScript, since it relies on Babel for most of its hard work.
 
 You can also use TypeScript's `--checkJs` flag to type-check JavaScript files,
-but this relies on JSdoc documentation blocks being present on your code, so
-it's less reliable. **Avoid** this as well.
-
-If you *really* want to use static typing in your JavaScript projects, you might
-as well use [TypeScript](../typescript) altogether.
+but if you're *really* concerned about using static typing in your JavaScript
+projects, we recommend that you use [TypeScript](../typescript) altogether.
 
 > Contrary to popular opinion, TypeScript is far from an entirely different
 language, and converting any JavaScript code to TypeScript can be done
