@@ -65,13 +65,13 @@ by [niieani](https://github.com/niieani)
 than angular, so consider that your first choice unless you're confident and
 believe in yourself. And you should always believe in yourself :smile:.
 
-### Browserify vs Webpack
+### Browserify vs webpack
 
 - Prefer using webpack to browserify.
-- Do **not** use Webpack &lt; 3 for new projects.
+- Do **not** use webpack &lt; 3 for new projects.
 - Do not use both simultaneously.
 
-> Webpack allows for a lot more flexibility in bundle generation, and generally
+> webpack allows for a lot more flexibility in bundle generation, and generally
 supersedes browserify.
 
 ### Gulp vs Grunt vs npm scripts
