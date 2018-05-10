@@ -33,17 +33,16 @@ writing it yourself.
 
 ### Static typing
 
-**Avoid** using Flowtype. It has a really weak IDE support and performance
-compared to TypeScript, since it relies on Babel for most of its hard work.
+**Avoid** using Flowtype. It has a weak IDE support and is generally slower
+compared to TypeScript.
 
-You can also use TypeScript's `--checkJs` flag to type-check JavaScript files,
-but if you're *really* concerned about using static typing in your JavaScript
-projects, we recommend that you use [TypeScript](../typescript) altogether.
+You can also use TypeScript as a tool to [type-check JavaScript files](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html),
+which relies on JSDoc annotations being present in your code.
+However, if you're *really* concerned about using static typing in your
+JavaScript projects, we recommend that you use TypeScript altogether.
 
-> Contrary to popular opinion, TypeScript is far from an entirely different
-language, and converting any JavaScript code to TypeScript can be done
-incrementally, with little to no changes apart from adding type annotations
-and/or interfaces.
+> We also have a dedicated guideline for writing TypeScript code, which you
+can find [here](../typescript).
 
 #### References
 
