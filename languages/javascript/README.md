@@ -68,7 +68,7 @@ believe in yourself. And you should always believe in yourself :smile:.
 ### Browserify vs Webpack
 
 - Prefer using webpack to browserify.
-- Do **not** use Webpack 1 for new projects.
+- Do **not** use Webpack &lt; 3 for new projects.
 - Do not use both simultaneously.
 
 > Webpack allows for a lot more flexibility in bundle generation, and generally
