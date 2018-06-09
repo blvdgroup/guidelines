@@ -65,7 +65,7 @@ function rng(): number {
 #### Declare argument type
 
 If declaring a function with arguments, you should always specify the type of
-the argument, even if it is `any`.
+the argument, even if it is `any` or `void`.
 
 ```typescript
 // Bad
@@ -84,13 +84,13 @@ If declaring a class method, you should always specify whether the method is
 
 ```typescript
 class Person {
-  constructor () {}
+  constructor() {}
 
   // Bad
-  sayHello(greeting: string) {}
+  sayHello(greeting: string): void {}
 
   // Good
-  public sayHello(greeting: string) {}
+  public sayHello(greeting: string): void {}
 }
 ```
 
