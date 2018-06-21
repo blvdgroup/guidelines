@@ -8,7 +8,4 @@ import 'normalize.css'
 import Root from './Root'
 import './index.css'
 
-ReactDOM.render(
-  <Root />,
-  document.getElementById('root')
-)
+ReactDOM.render(<Root />, document.getElementById('root'))
