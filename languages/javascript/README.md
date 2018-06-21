@@ -11,7 +11,7 @@ create less readable code and much more likely to introduce dumb, edge case
 bugs. And it's less fun.
 
 If ES5 compatibility is a concern, use Babel. We generally compile with
-`"presets": ["es2015", "stage-3"]` at a minimum in the `.babelrc`, and this is
+`"presets": ["env", "stage-3"]` at a minimum in the `.babelrc`, and this is
 reflected in the style guide below.
 
 ### While we're at it
@@ -52,10 +52,10 @@ by [niieani](https://github.com/niieani)
 
 ### Angular vs React
 
-- Do **not** use angular 1 for new projects.
-- React is OK.
-- Angular 2 is OK.
-- Consider React or Angular 2 before looking to alternatives, as it will before
+- Do **not** use angular 1 and React 15 for new projects.
+- React 16+ is OK.
+- Angular 2+ is OK.
+- Consider React or Angular before looking to alternatives, as it will before
   difficult to find support for them.
 - Choose one - if you have both React and Angular in your dependencies, I will
   come to your house and personally slap you.
@@ -89,7 +89,7 @@ help it. But gulp seems to be...less so.
 - Use yarn.
 - Commit the `yarn.lock` file.
 
-> Yarn is faster, better, harder, stronger than npm. It's got the support behind
+> Yarn is harder, better, faster, stronger than npm. It's got the support behind
 it and works off the existing npm registry. You should be using it.
 
 ## Style
