@@ -7,7 +7,7 @@ This readme acts as a guide to the rest of the guidelines. In here, you'll find
 language style guides, linter configurations, our unified code of conduct, and
 more.
 
-- [General Guidelines](https://github.com/blvdgroup/guidelines/blob/master/GENERAL.md)
+- [General Guidelines](GENERAL.md)
 - Language Guidelines:
-  - [Typescript Guidelines](https://github.com/blvdgroup/guidelines/blob/master/languages/typescript/README.md)
-  - [Javascript Guidelines](https://github.com/blvdgroup/guidelines/blob/master/languages/javascript/README.md)
+  - [Typescript Guidelines](languages/typescript/README.md)
+  - [Javascript Guidelines](languages/javascript/README.md)
