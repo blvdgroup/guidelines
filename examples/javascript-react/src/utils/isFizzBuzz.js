@@ -1,4 +1,4 @@
-const isFizzBuzz = (num) => {
+const isFizzBuzz = num => {
   let result = ''
 
   if (num % 3 === 0) result += 'fizz'
