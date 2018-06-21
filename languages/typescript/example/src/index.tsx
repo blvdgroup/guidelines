@@ -5,7 +5,4 @@ import Root from './Root'
 import 'normalize.css'
 import './index.css'
 
-ReactDOM.render(
-  <Root />,
-  document.getElementById('root') as HTMLElement
-)
+ReactDOM.render(<Root />, document.getElementById('root') as HTMLElement)
