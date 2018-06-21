@@ -156,14 +156,13 @@ files which are designed to be imported for side effects.
 > Same as above, a common exception to this is when importing styles via
 webpack (e.g. `import 'styles/reset.css'`)
 
-## Using TSLint
+## Using TSLint + Prettier
 
-The tslint.json file provided attempts to import as much of the airbnb style
-guide possible into TSLint. It tries, but some of the rules available in eslint
-are not available in TSLint, so get more mad at Palantir than you already are.
+The tslint.json file provided imports the blvd typescript style guide into
+TSLint. A `.prettierrc` is also included for those who use [Prettier](https://prettier.io/).
 
-It also includes the rules outlined here.
+To use them, include the following packages.
 
 ```bash
-yarn add tslint tslint-config-airbnb
+yarn add tslint tslint-config-blvd tslint-config-prettier
 ```

@@ -9,13 +9,14 @@ interface RootState {
 }
 
 class Root extends React.Component<{}, RootState> {
-  constructor (props: any) {
+  constructor(props: any) {
     super(props)
     this.state = {
       count: 0
     }
   }
-  render() {
+
+  public render() {
     return (
       <div className="root">
         <Header />

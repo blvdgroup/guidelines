@@ -15,7 +15,7 @@ class CounterContainer extends React.Component<{}, RootState> {
     }
   }
 
-  render() {
+  public render() {
     return (
       <div className="counter-container">
         <div className="counter-container-wrapper">
@@ -23,24 +23,25 @@ class CounterContainer extends React.Component<{}, RootState> {
             <span>{isFizzBuzz(this.state.count)}</span>
           </div>
           <div className="counter-container-wrapper__buttons">
-            <Button kind="primary" onClick={this.handleIncrement}>Increment</Button>{' '}
-            <Button onClick={this.handleDecrement}>Decrement</Button>{' '}
-            <Button onClick={this.handleReset}>Reset</Button>
+            <Button kind="primary" onClick={this.handleIncrement}>
+              Increment
+            </Button>{' '}
+            <Button onClick={this.handleDecrement}>Decrement</Button> <Button onClick={this.handleReset}>Reset</Button>
           </div>
         </div>
       </div>
     )
   }
 
-  handleIncrement = () => {
+  private handleIncrement = () => {
     this.setState({ count: this.state.count + 1 })
   }
 
-  handleDecrement = () => {
+  private handleDecrement = () => {
     this.setState({ count: this.state.count - 1 })
   }
 
-  handleReset = () => {
+  private handleReset = () => {
     this.setState({ count: 0 })
   }
 }
