@@ -81,8 +81,8 @@ should always be marked either `public`, `private`, or `protected`.
 
 #### Avoid `.bind(this)`
 
-You should avoid use `.bind(this)` when binding functions to component context!
-This can (and should) be replaced by ES6 arrow functions.
+Don't use `.bind(this)` when binding functions to component context! This can
+(and should) be replaced by ES6 arrow functions.
 
 ```jsx
 // Bad example
@@ -166,7 +166,7 @@ class FancierButton extends React.Component {
   render() {
     return (
       <Fragment>
-        {/* okay */}
+        {/* Not so good */}
         <LayoutContainer
           render={({ theme, setTheme }) => (
             <div>
@@ -178,7 +178,7 @@ class FancierButton extends React.Component {
           )}
         />
 
-        {/* better */}
+        {/* Better */}
         <LayoutContainer>
           {({ theme, setTheme }) => (
             <div>
