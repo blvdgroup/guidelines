@@ -19,8 +19,8 @@ stack. We recommend the following libraries:
 - [Babel](https://babeljs.io/) - JS/TS transpilation
 
 > Personally, we prefer webpack over Parcel, and webpack 4 has significantly
-reduced its initial setup time. For an example minimal Webpack setup for React,
-see [mvws](https://github.com/resir014/mvws).
+reduced its initial setup time. For an example minimal webpack 4 setup for
+React, see [mvws](https://github.com/resir014/mvws).
 
 ### IDE
 
@@ -28,6 +28,10 @@ Use [Visual Studio Code](https://code.visualstudio.com). It has first-class
 support for JavaScript and TypeScript, complete with code-aware statement
 completion, Emmet integration for JSX elements, as well top-notch debugging
 environment.
+
+> Any other IDE should do, as long as it supports the [Language Server Protocol](https://github.com/Microsoft/language-server-protocol).
+If you prefer [Atom](https://atom.io), you should install the [Atom IDE](https://ide.atom.io/)
+package.
 
 ## Style
 
@@ -51,13 +55,13 @@ If declaring a stateless component, you should avoid declaring them as a `functi
 
 ```jsx
 // Bad example
-function Listing({ hello }) {
-  return <div>{hello}</div>;
+function Component({ children }) {
+  return <div>{children}</div>;
 }
 
 // Good example
-const Listing = ({ hello }) => (
-  <div>{hello}</div>
+const Component = ({ children }) => (
+  <div>{children}</div>
 )
 ```
 
