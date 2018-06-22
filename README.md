@@ -9,5 +9,5 @@ more.
 
 - [General Guidelines](GENERAL.md)
 - Language Guidelines:
-  - [Typescript Guidelines](languages/typescript/README.md)
-  - [Javascript Guidelines](languages/javascript/README.md)
+  - [Typescript Guidelines](languages/typescript)
+  - [Javascript Guidelines](languages/javascript)
