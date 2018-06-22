@@ -22,26 +22,27 @@ To meet the TypeScript styleguide regarding class properties, all React
 component lifecycles (including `static` lifecycles like
 `getDerivedStateFromProps`) **shall** be set to `public`.
 
+
 ## Context binding
 
 **Do not** use `.bind(this)` when binding functions to component context! You
 should use ES6 arrow functions instead.
 
 ```jsx
-class Component extends React.Component {
+class FancyButton extends React.Component {
   handleClick(e) {
     e.preventDefault()
   }
 
   render() {
     return (
-      <>
+      <Fragment>
         {/* Bad example */}
         <button onClick={this.handleClick.bind(this)}>Click me!</button>
 
         {/* Good example */}
         <button onClick={(e) => this.handleClick(e)}>Click me!</button>
-      </>
+      </Fragment>
     );
   }
 }
@@ -51,16 +52,16 @@ Another alternative to the above example would be converting the `handleClick`
 call into an arrow function, e.g.
 
 ```jsx
-class Component extends React.Component {
+class FancyButton extends React.Component {
   handleClick = (e) => {
     e.preventDefault()
   }
 
   render() {
     return (
-      <>
+      <Fragment>
         <button onClick={this.handleClick}>Click me!</button>
-      </>
+      </Fragment>
     );
   }
 }
@@ -75,34 +76,34 @@ browsers have balanced things out. But still, your mileage may vary.
 If using a component with render props, prefer to use a children-based render prop.
 
 ```jsx
-class Component extends React.Component {
+class FancierButton extends React.Component {
   render() {
     return (
-      <>
+      <Fragment>
         {/* okay */}
         <LayoutContainer
           render={({ theme, setTheme }) => (
-            <>
+            <div>
               <CurrentTheme>Current theme: {theme}</CurrentTheme>
               <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
                 Switch theme
               </button>
-            </>
+            </div>
           )}
         />
 
         {/* better */}
         <LayoutContainer>
           {({ theme, setTheme }) => (
-            <>
+            <div>
               <CurrentTheme>Current theme: {theme}</CurrentTheme>
               <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
                 Switch theme
               </button>
-            </>
+            </div>
           )}
         </LayoutContainer>
-      </>
+      </Fragment>
     );
   }
 }
