@@ -203,6 +203,36 @@ analogy is to imagine the starting and closing tags as airports. An ideal trip
 on an airplane would end on the runway of another airport and not at, like,
 a wall.
 
+### Static typing (TypeScript)
+
+#### Dont inline prop types
+
+Instead of defining prop types inline, you should declare them separately.
+
+```tsx
+// Bad example
+const App: React.SFC<{ message: string }> = ({ message }) => <div>{message}</div>
+```
+
+```tsx
+// Good example
+type AppProps = {
+  message: string
+}
+
+const App: React.SFC<AppProps> = ({ message }) => <div>{message}</div>
+```
+
+> This improves code reusability and organization.
+
+#### Use `type`s over `interface`s for prop declarations
+
+- Consider using `type`s for your components' props/states.
+- Use `interface`s only when your props/state declaration is also a public
+  API definition.
+
+> For reference, see [React + TypeScript Cheatsheet § Types or Interfaces?](https://github.com/sw-yx/react-typescript-cheatsheet#types-or-interfaces)
+
 ## Using linters + Prettier
 
 The tslint.json file provided imports the blvd typescript style guide into
