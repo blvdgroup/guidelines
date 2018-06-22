@@ -58,7 +58,7 @@ function Listing({ hello }) {
 // Good example
 const Listing = ({ hello }) => (
   <div>{hello}</div>
-);
+)
 ```
 
 ### Naming
@@ -112,7 +112,7 @@ class FancyButton extends React.Component {
   render() {
     return (
       <button onClick={this.handleClick}>Click me!</button>
-    );
+    )
   }
 }
 
@@ -125,7 +125,7 @@ class FancyButton extends React.Component {
   render() {
     return (
       <button onClick={(e) => this.handleClick(e)}>Click me!</button>
-    );
+    )
   }
 }
 ```
@@ -143,10 +143,8 @@ class FancyButton extends React.Component {
 
   render() {
     return (
-      <Fragment>
-        <button onClick={this.handleClick}>Click me!</button>
-      </Fragment>
-    );
+      <button onClick={this.handleClick}>Click me!</button>
+    )
   }
 }
 ```
@@ -190,7 +188,7 @@ class FancierButton extends React.Component {
           )}
         </LayoutContainer>
       </Fragment>
-    );
+    )
   }
 }
 ```
