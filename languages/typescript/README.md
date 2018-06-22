@@ -164,5 +164,5 @@ TSLint. A `.prettierrc` is also included for those who use [Prettier](https://pr
 To use them, include the following packages.
 
 ```bash
-yarn add tslint tslint-config-blvd tslint-config-prettier
+yarn add --dev tslint tslint-config-blvd tslint-plugin-prettier tslint-config-prettier
 ```

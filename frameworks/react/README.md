@@ -199,4 +199,16 @@ analogy is to imagine the starting and closing tags as airports. An ideal trip
 on an airplane would end on the runway of another airport and not at, like,
 a wall.
 
-## [TODO]
+## Using linters + Prettier
+
+The tslint.json file provided imports the blvd typescript style guide into
+TSLint. To use them, include the following packages.
+
+A `.prettierrc` is also included for those who use [Prettier](https://prettier.io/).
+Prettier is a code formatter which ensures your code is formatted to a
+consistent style. It works alongside your IDEs and linters, and our
+ESLint/TSLint configs works alongside them.
+
+```bash
+yarn add --dev tslint tslint-config-blvd tslint-plugin-prettier tslint-config-prettier
+```
