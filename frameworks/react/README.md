@@ -18,8 +18,9 @@ stack. We recommend the following libraries:
 - [webpack](https://webpack.js.org/)/[Parcel](https://parceljs.org/) - module bundling
 - [Babel](https://babeljs.io/) - JS/TS transpilation
 
-> Personally, we prefer webpack over Parcel, and webpack 4 has significantly
-reduced its initial setup time. For an example minimal webpack 4 setup for
+> Personally, we prefer webpack over Parcel due to its ecosystem support.
+Compared to previous versions, webpack 4 has a significantly reduced initial
+setup time + config file size. For an example minimal webpack 4 setup for
 React, see [mvws](https://github.com/resir014/mvws).
 
 ### IDE
