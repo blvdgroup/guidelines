@@ -7,6 +7,8 @@ Go absolutely wild.
 
 ## Tooling
 
+### Build setup
+
 While tools like `create-react-app` can be useful, its out-of-the-box
 configuration can be a bit limiting, and ejecting kind of defeats its purpose.
 
@@ -15,6 +17,17 @@ stack. We recommend the following libraries:
 
 - [webpack](https://webpack.js.org/)/[Parcel](https://parceljs.org/) - module bundling
 - [Babel](https://babeljs.io/) - JS/TS transpilation
+
+> Personally, we prefer webpack over Parcel, and webpack 4 has significantly
+reduced its initial setup time. For an example minimal Webpack setup for React,
+see [mvws](https://github.com/resir014/mvws).
+
+### IDE
+
+Use [Visual Studio Code](https://code.visualstudio.com). It has first-class
+support for JavaScript and TypeScript, complete with code-aware statement
+completion, Emmet integration for JSX elements, as well top-notch debugging
+environment.
 
 ## Style
 
