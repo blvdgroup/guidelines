@@ -1,5 +1,5 @@
 {
-  "extends": ["airbnb", "prettier"],
+  "extends": ["airbnb", "prettier", "prettier/react"],
   "rules": {
     "comma-dangle": ["error", "never"],
     "semi": ["error", "never"],
