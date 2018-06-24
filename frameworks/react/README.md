@@ -232,7 +232,7 @@ const App: React.SFC<AppProps> = ({ message }) => <div>{message}</div>
 - Use `interface`s only when your props/state declaration is also a public
   API definition.
 
-> For reference, see [React + TypeScript Cheatsheet § Types or Interfaces?](https://github.com/sw-yx/react-typescript-cheatsheet#types-or-interfaces)
+> For reference, see [sw-yx/react-typescript-cheatsheet § Types or Interfaces?](https://github.com/sw-yx/react-typescript-cheatsheet#types-or-interfaces)
 
 ## Using linters + Prettier
 
