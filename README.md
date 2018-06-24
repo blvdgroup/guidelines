@@ -11,5 +11,5 @@ more.
 - Language Guidelines:
   - [Typescript Guidelines](languages/typescript)
   - [Javascript Guidelines](languages/javascript)
-- Framework Guidelines
+- Framework Guidelines:
   - [React Guidelines](frameworks/react)
