@@ -135,6 +135,11 @@ enum weatherType {}
 enum WeatherType {}
 ```
 
+#### Avoid `const enum`s
+
+Tools like Babel [don't support this syntax (yet)](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html#caveats).
+Use regular `enum`s instead, or just use a plain old JS object.
+
 ### Imports
 
 #### Don't use `/// <reference path="..."`
