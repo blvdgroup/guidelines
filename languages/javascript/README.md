@@ -89,7 +89,7 @@ help it. But gulp seems to be...less so.
 - Use yarn.
 - Commit the `yarn.lock` file.
 
-> Yarn is harder, better, faster, stronger than npm. It's got the support behind
+> Yarn is better, faster, stronger than npm. It's got the support behind
 it and works off the existing npm registry. You should be using it.
 
 ## Style

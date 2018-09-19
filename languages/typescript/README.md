@@ -140,15 +140,22 @@ enum WeatherType {}
 Tools like Babel [don't support this syntax (yet)](https://babeljs.io/docs/en/babel-plugin-transform-typescript.html#caveats).
 Use regular `enum`s instead, or just use a plain old JS object.
 
+### Other TypeScript-specific stuff
+
+#### Avoid `namespace`s
+
+This is the legacy method for defining modules in TypeScript, and can be easily
+replaced with ES Modules.
+
 ### Imports
 
 #### Don't use `/// <reference path="..."`
 
-This is outdated syntax, and ES6 style imports should be used instead.
+This is outdated syntax, and ES6-style imports should be used instead.
 
 #### Don't use `require('')`
 
-In every case, this can be replaced by using, again, ES6 style imports.
+In every case, this can be replaced by using, again, ES6-style imports.
 
 #### Don't import files just for side effects
 
