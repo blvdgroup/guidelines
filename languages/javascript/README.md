@@ -115,11 +115,11 @@ they will be caught and flagged as errors by the `no-unexpected-multiline` rule.
 ## Using eslint + Prettier
 
 The eslint config included in this file will work with any project, provided
-that certain dependencies are installed with it. Run the following line, and
-place the .eslintrc in the root of your project.
-
-A `.prettierrc` is also included for those who use [Prettier](https://prettier.io/).
+that certain dependencies are installed with it. Run this command, and
+place the provided `.eslintrc` in the root of your project.
 
 ```
 yarn add --dev eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-config-prettier eslint-plugin-prettier prettier
 ```
+
+A `.prettierrc` is also included for those who use [Prettier](https://prettier.io/).
