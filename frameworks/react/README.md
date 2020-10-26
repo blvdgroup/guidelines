@@ -101,6 +101,7 @@ class FancyButton extends React.Component {
       <button onClick={this.handleClick.bind(this)}>Click me!</button>
     );
   }
+}
 
 // Bad example
 class FancyButton extends React.Component {
